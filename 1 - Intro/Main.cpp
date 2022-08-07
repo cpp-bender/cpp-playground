@@ -6,7 +6,7 @@
  - C++ has something called STL (Standard Template Library)
  - C++ does not include a string class but STL has
  - Some gaming companies such as EA has their own STL library (EA has EASTL)
- - C++ has compilers such as GCC, CLAMG, Intel C++, Microsot Visual Studio
+ - C++ has compilers such as GCC, CLANG, Intel C++, Microsot Visual Studio
  - Most devs. read reference sites such as cppreference.com
  - Last but not least it's an awesome language to make a Game Engine :)
 */
