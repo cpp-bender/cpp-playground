@@ -25,8 +25,17 @@
 *.la
 *.a
 *.lib
+*.pbd
 
 # Executables
 *.exe
 *.out
 *.app
+
+# Directories
+bin/
+bin-int/
+
+
+
+
