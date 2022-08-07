@@ -1,9 +1,10 @@
 #include <iostream>
 
+#define LOG(x) std::cout<< x <<std::endl
+
 int main()
 {
-	//Part 1 - Primitives
-
+	//--------------------
 	//16 bit short
 	short num1 = 0;
 
@@ -25,15 +26,25 @@ int main()
 	//64 bit bool
 	bool hasKey = false;
 
-	//Part 2 - Literals
+	//---------------------
+
+	//Literals are data used for representing fixed values
+	//Decimal int		->		-
+	//Octal   int		->		starts with 0
+	//Hexadecimal int	->		starts with 0x or 0X
 
 	int dec_Value = 25;
-
 	int octal_Value = 031;
-
 	int hexa_Value = 0x19;
 
-	std::cout << dec_Value << std::endl << octal_Value << std::endl << hexa_Value << std::endl;
+	if (hexa_Value == octal_Value)
+	{
+		LOG("They are equal");
+	}
+	else
+	{
+		LOG("They are not equal");
+	}
 
 	std::cin.get();
 }
