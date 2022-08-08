@@ -33,18 +33,15 @@ int main()
 	//Octal   int		->		starts with 0
 	//Hexadecimal int	->		starts with 0x or 0X
 
-	int dec_Value = 25;
-	int octal_Value = 031;
-	int hexa_Value = 0x19;
+	//Int literals
+	auto int_dec_value = 25;				
+	auto int_octal_value = 031;			
+	auto int_hexa_value = 0x19;			
+	auto unsigned_long_value = 123ul;
 
-	if (hexa_Value == octal_Value)
-	{
-		LOG("They are equal");
-	}
-	else
-	{
-		LOG("They are not equal");
-	}
+	//Double literals
+	auto double_decimal_value = 12.23;
+	auto double_decimal_value2 = 12.34e2;
 
 	std::cin.get();
 }
